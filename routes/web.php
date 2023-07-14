@@ -36,3 +36,7 @@ Route::get('/gallery', function () {
 Route::get('/internship', function () {
     return view('internship');
 });
+
+Route::get('/internshipdata', function () {
+    return view('internshipdata');
+});

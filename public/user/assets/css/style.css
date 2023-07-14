@@ -871,38 +871,47 @@ section {
 }
 
 /* detail internship */
-.faq .content h3 {
+.detailint .content h3 {
   font-weight: 400;
   font-size: 34px;
 }
 
-.faq .content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-top: 5px;
-}
-
-.faq .content p {
+.detailint .content p {
   font-size: 15px;
   color: #6c757d;
 }
 
-.faq .accordion-item {
+.detailint .content .joininternship a {
+  display: inline-block;
+  background: #1f1f1f;
+  color: #fff;
+  padding: 10px 15px;
+  transition: 0.3s;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.detailint .content .joininternship a:hover {
+  background: #f1a208;
+}
+
+
+.detailint .accordion-item {
   border: 0;
   margin-bottom: 20px;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
 }
 
-.faq .accordion-item:last-child {
+.detailint .accordion-item:last-child {
   margin-bottom: 0;
 }
 
-.faq .accordion-collapse {
+.detailint .accordion-collapse {
   border: 0;
 }
 
-.faq .accordion-button {
+.detailint .accordion-button {
   padding: 20px 50px 20px 20px;
   font-weight: 600;
   border: 0;
@@ -915,31 +924,40 @@ section {
   border-radius: 10px;
 }
 
-.faq .accordion-button .num {
+.detailint .accordion-button .num {
   padding-right: 10px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 0;
   color: var(--color-primary);
 }
 
-.faq .accordion-button:not(.collapsed) {
+.detailint .accordion-button:not(.collapsed) {
   color: var(--color-primary);
   border-bottom: 0;
   box-shadow: none;
 }
 
-.faq .accordion-button:after {
+.detailint .accordion-button:after {
   position: absolute;
   right: 20px;
   top: 20px;
 }
 
-.faq .accordion-body {
+.detailint .accordion-body {
   padding: 0 40px 30px 45px;
   border: 0;
   border-radius: 10px;
   background: #fff;
   box-shadow: none;
+}
+
+.detailint .accordion-body .option1 i {
+  color: rgb(0, 144, 0);
+}
+
+.detailint .accordion-body .option2 i {
+  font-size: 20px;
+  color: #1f1f1f;
 }
 
 /*--------------------------------------------------------------
