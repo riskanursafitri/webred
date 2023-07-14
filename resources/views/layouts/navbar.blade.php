@@ -48,12 +48,14 @@
                     <li><a class="nav-link scrollto" href="{{ URL::to('/blog') }}">Blog</a></li>
                     <li><a class="nav-link scrollto" href="{{ URL::to('/gallery') }}">Gallery</a></li>
                     <li><a class="nav-link scrollto" href="{{ URL::to('/internship') }}">Internship</a></li>
-                    <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="{{ URL::to('/detailservice') }}"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="#">Drop Down 1</a></li>
-                            <li><a href="#">Drop Down 2</a></li>
-                            <li><a href="#">Drop Down 3</a></li>
-                            <li><a href="#">Drop Down 4</a></li>
+                            <li><a href="{{ URL::to('/advertising') }}">Advertising</a></li>
+                            <li><a href="#">Content Writing</a></li>
+                            <li><a href="#">Creative Service</a></li>
+                            <li><a href="#">IT Consultant</a></li>
+                            <li><a href="#">SEO</a></li>
+                            <li><a href="#">Web Development</a></li>
                         </ul>
                     </li>
                 </ul>

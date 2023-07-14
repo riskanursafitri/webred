@@ -227,23 +227,23 @@
             <i class="ri-advertisement-fill icon"></i>
             <h3>Advertising</h3>
             <p>Maksimalkan potensi bisnis Anda dengan jasa advertising kami! Kami membawa solusi advertising yang efektif untuk memperluas pangsa pasar Anda.</p>
-            <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            <a href="{{ URL::to('/advertising') }}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
           <div class="service-box two">
-            <i class="ri-apps-line icon"></i>
-            <h3>Aplikasi</h3>
-            <p>Wujudkan aplikasi impian Anda bersama kami! Tim ahli kami menyediakan jasa pembuatan aplikasi kustom yang inovatif dan fungsional. </p>
+            <i class="ri-edit-line icon"></i>
+            <h3>Content Writing</h3>
+            <p>Dapatkan konten yang informatif, menginspirasi, dan memikat untuk membangun keterlibatan pengguna yang kuat dan memperluas jangkauan bisnis Anda secara online.</p>
             <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div class="service-box three">
-            <i class="ri-edit-line icon"></i>
-            <h3>Content Writing</h3>
+            <i class="ri-star-fill icon"></i>
+            <h3>Creative Service</h3>
             <p>Dapatkan konten yang informatif, menginspirasi, dan memikat untuk membangun keterlibatan pengguna yang kuat dan memperluas jangkauan bisnis Anda secara online.</p>
             <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
@@ -261,7 +261,7 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
           <div class="service-box five">
             <i class="ri-file-edit-line icon"></i>
-            <h3>SEO</h3>
+            <h3>SEO Service</h3>
             <p>Tim ahli SEO kami siap membantu Anda mengoptimalkan peringkat pencarian dan mendapatkan lalu lintas organik yang lebih tinggi ke situs web Anda.</p>
             <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
@@ -270,7 +270,7 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
           <div class="service-box six">
             <i class="ri-layout-2-fill icon"></i>
-            <h3>Web</h3>
+            <h3>Web Development</h3>
             <p>Hadirkan kehadiran online yang menarik dengan jasa pembuatan web kami! Tim profesional kami siap membantu Anda merancang dan mengembangkan situs web yang responsif, fungsional, dan menarik secara visual.</p>
             <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>

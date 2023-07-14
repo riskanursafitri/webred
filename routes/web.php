@@ -40,3 +40,11 @@ Route::get('/internship', function () {
 Route::get('/internshipdata', function () {
     return view('internshipdata');
 });
+
+Route::get('/detailservice', function () {
+    return view('detailservice');
+});
+
+Route::get('/advertising', function () {
+    return view('advertising');
+});
