@@ -46,9 +46,9 @@ Route::get('/internshipdata', function () {
 });
 
 Route::get('/detailservice', function () {
-    return view('detailservice');
+    return view('service.detailservice');
 });
 
-Route::get('/advertising', function () {
-    return view('advertising');
+Route::get('/contentwriting', function () {
+    return view('service.contentwriting');
 });

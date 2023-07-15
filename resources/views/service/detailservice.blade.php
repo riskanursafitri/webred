@@ -17,7 +17,7 @@
                     <i class="ri-advertisement-fill icon"></i>
                     <h3>Advertising</h3>
                     <p>Maksimalkan potensi bisnis Anda dengan jasa advertising kami! Kami membawa solusi advertising yang efektif untuk memperluas pangsa pasar Anda.</p>
-                    <a href="{{ URL::to('/advertising') }}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -26,7 +26,7 @@
                     <i class="ri-edit-line icon"></i>
                     <h3>Content Writing</h3>
                     <p>Dapatkan konten yang informatif, menginspirasi, dan memikat untuk membangun keterlibatan pengguna yang kuat dan memperluas jangkauan bisnis Anda secara online.</p>
-                    <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ URL::to('/contentwriting') }}" class="read-more" target="_blank"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
