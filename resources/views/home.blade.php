@@ -82,7 +82,7 @@
 
       <header class="section-header">
         <h2>Gallery</h2>
-        <p>Check our latest work</p>
+        <p>Check our latest post</p>
       </header>
 
       <div class="row" data-aos="fade-up" data-aos-delay="100">
