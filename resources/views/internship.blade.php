@@ -12,7 +12,7 @@
             Panduan ini berisi definisi prakerin, konsep prakerin, tujuan rakerin, peran, peraturan, konsekuensi, agenda dan syarat seorang peserta prakerin dinyatakan telah lulus prakerin. Pedoman ini wajib dipahami oleh peserta prakerin maupun yang berencana mendaftar prakerin, agar bisa beradaptasi dengan baik, menghindari kesalahpahaman dan mendapatkan hasil prakerin yang maksimal.
           </p>
           <div class="joininternship">
-            <a href="{{ URL::to('/internshipdata') }}">Join Internship</a>
+            <a href="{{ URL::to('/internshipdata') }}" target="_blank">Join Internship</a>
           </div>
         </div>
       </div>
