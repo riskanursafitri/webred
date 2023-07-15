@@ -46,21 +46,11 @@
                     <!-- misi -->
                     <div class="tab-pane fade show" id="tab3">
                         <p>Visi dan misi membantu Red Levl untuk selalu memperjuangkan cita-citanya dengan membimbing manajemen dan karyawan saat mereka bekerja sama untuk tujuan bersama yang akan berkontribusi pada kesuksesan jangka panjang Perusahaan. Red Levl mempunyai misi sebagai berikut:</p>
-                        <div class="d-flex align-items-center mb-2">
-                            <i class="bi bi-caret-right-fill"></i>
-                            <p>Memberikan layanan terbaik dan solusi ahli untuk semua pelanggan dan mitra kami.</p>
-                        </div>
-
-                        <div class="d-flex align-items-center mb-2">
-                            <i class="bi bi-caret-right-fill"></i>
-                            <p>Menciptakan lingkungan yang positif bagi seluruh karyawan kami agar mereka dapat bekerja lebih baik dan bangga dengan pekerjaannya.</p>
-                        </div>
-
-                        <div class="d-flex align-items-center mb-2">
-                            <i class="bi bi-caret-right-fill"></i>
-                            <p>Menjadi acuan dalam penerapan kepatuhan dan tata kelola yang baik bagi industri.</p>
-                        </div>
-
+                        <ul>
+                            <li>Memberikan layanan terbaik dan solusi ahli untuk semua pelanggan dan mitra kami.</li>
+                            <li>Menciptakan lingkungan yang positif bagi seluruh karyawan kami agar mereka dapat bekerja lebih baik dan bangga dengan pekerjaannya.</li>
+                            <li>Menjadi acuan dalam penerapan kepatuhan dan tata kelola yang baik bagi industri.</li>
+                        </ul>
                     </div>
                     <!-- end misi -->
 

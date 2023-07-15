@@ -33,6 +33,10 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
+// Route::get('/portfolio-details', function () {
+//     return view('portfolio-details');
+// });
+
 Route::get('/internship', function () {
     return view('internship');
 });
