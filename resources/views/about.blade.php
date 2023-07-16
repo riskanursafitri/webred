@@ -1,8 +1,14 @@
 @extends('layouts.navbar')
 @section('content')
+@push('styles')
+<link href="{{ asset('user/assets/vendor/aos/aos.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/css/style.css') }}" rel="stylesheet">
+@endpush
 
 <!-- about -->
-<section id="about" class="about" style="padding-bottom: 2%;">
+<section id="about" class="about" style="padding-bottom: 1%;">
 
     <div class="container" data-aos="fade-up">
 
@@ -116,4 +122,11 @@
 </section>
 <!-- end contact section -->
 
+@push('scripts')
+<script src="{{ asset('user/assets/vendor/aos/aos.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+<script src="{{ asset('user/assets/js/main.js') }}"></script>
+@endpush
 @endsection

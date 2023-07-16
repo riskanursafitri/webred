@@ -1,5 +1,14 @@
 @extends('layouts.navbar')
 @section('content')
+@push('styles')
+<link href="{{ asset('user/assets/vendor/aos/aos.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/css/style.css') }}" rel="stylesheet">
+@endpush
 
 <!-- blog -->
 <section id="blog" class="blog">
@@ -156,4 +165,14 @@
 
 </section><!-- End Blog Section -->
 
+@push('scripts')
+<script src="{{ asset('user/assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/aos/aos.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/php-email-form/validate.js') }}"></script>
+<script src="{{ asset('user/assets/js/main.js') }}"></script>
+@endpush
 @endsection

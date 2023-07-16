@@ -1,5 +1,9 @@
 @extends('layouts.navbar')
 @section('content')
+@push('styles')
+<link href="styles.css" rel="stylesheet">
+@endpush
+
 
 <!-- gallery -->
 <section id="portfolio" class="portfolio">
