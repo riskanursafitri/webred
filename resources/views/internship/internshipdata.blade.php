@@ -1,46 +1,22 @@
 @extends('layouts.navbar')
 @section('content')
+@push('styles')
+<link href="{{ asset('user/assets/vendor/aos/aos.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+<link href="{{ asset('user/assets/css/style.css') }}" rel="stylesheet">
+@endpush
 
 <!-- data-->
 <section id="interndata" class="interndata section-bg" style="padding-top: 10%;">
     <div class="container">
 
-        <header class="section-header">
-            <!-- <h2>Blog</h2> -->
+        <header class="section-header" data-aos="fade-up">
             <p>Data Diri</p>
         </header>
 
-        <!-- <div class="row mt-5 justify-content-center">
-
-            <div class="col-lg-10">
-
-                <div class="info-wrap">
-                    <div class="row">
-                        <div class="col-lg-4 info">
-                            <i class="bi bi-geo-alt"></i>
-                            <h4>Location:</h4>
-                            <p>A108 Adam Street<br>New York, NY 535022</p>
-                        </div>
-
-                        <div class="col-lg-4 info mt-4 mt-lg-0">
-                            <i class="bi bi-envelope"></i>
-                            <h4>Email:</h4>
-                            <p>info@example.com<br>contact@example.com</p>
-                        </div>
-
-                        <div class="col-lg-4 info mt-4 mt-lg-0">
-                            <i class="bi bi-phone"></i>
-                            <h4>Call:</h4>
-                            <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div> -->
-
-        <div class="row mt-2 justify-content-center">
+        <div class="row mt-2 justify-content-center" data-aos="fade-up">
             <div class="col-lg-10">
                 <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                     <div class="row">
@@ -75,11 +51,19 @@
                     <div class="text-center"><button type="submit">Send Message</button></div>
                 </form>
             </div>
-
         </div>
 
     </div>
 </section><!-- End Contact Section -->
 
-
+@push('scripts')
+<script src="{{ asset('user/assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/aos/aos.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+<script src="{{ asset('user/assets/vendor/php-email-form/validate.js') }}"></script>
+<script src="{{ asset('user/assets/js/main.js') }}"></script>
+@endpush
 @endsection

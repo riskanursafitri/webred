@@ -419,8 +419,6 @@ section {
   background: #fff;
 }
 
-
-
 /* navigate back */
 .navback {
   padding: 15px 0;
@@ -1184,6 +1182,7 @@ section {
 .detailint .content p {
   font-size: 15px;
   color: #6c757d;
+  text-align: left;
 }
 
 .detailint .content .joininternship a {
