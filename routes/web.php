@@ -22,11 +22,11 @@ Route::get('/about', function () {
 });
 
 Route::get('/blog', function () {
-    return view('blog');
+    return view('blog.blog');
 });
 
 Route::get('/detailblog', function () {
-    return view('detailblog');
+    return view('blog.detailblog');
 });
 
 Route::get('/gallery', function () {
@@ -38,11 +38,11 @@ Route::get('/gallery', function () {
 // });
 
 Route::get('/internship', function () {
-    return view('internship');
+    return view('internship.internship');
 });
 
 Route::get('/internshipdata', function () {
-    return view('internshipdata');
+    return view('internship.internshipdata');
 });
 
 Route::get('/detailservice', function () {
