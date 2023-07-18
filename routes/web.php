@@ -65,10 +65,6 @@ Route::get('/itconsultant', function () {
     return view('service.itconsultant');
 });
 
-Route::get('/itconsultant', function () {
-    return view('service.itconsultant');
-});
-
 Route::get('/seoservice', function () {
     return view('service.seoservice');
 });
