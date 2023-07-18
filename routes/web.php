@@ -49,6 +49,30 @@ Route::get('/detailservice', function () {
     return view('service.detailservice');
 });
 
+Route::get('/advertising', function () {
+    return view('service.advertising');
+});
+
 Route::get('/contentwriting', function () {
     return view('service.contentwriting');
+});
+
+Route::get('/creativeservice', function () {
+    return view('service.creativeservice');
+});
+
+Route::get('/itconsultant', function () {
+    return view('service.itconsultant');
+});
+
+Route::get('/itconsultant', function () {
+    return view('service.itconsultant');
+});
+
+Route::get('/seoservice', function () {
+    return view('service.seoservice');
+});
+
+Route::get('/webdevelopment', function () {
+    return view('service.webdevelopment');
 });

@@ -21,27 +21,33 @@
                 <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Nama Lengkap" required>
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" name="name" class="form-control" id="name" placeholder=" Masukkan Nama Lengkap" required>
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required>
+                            <label for="name">E-mail</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Masukkan E-mail" required>
                         </div>
                     </div>
                     <div class="form-group mt-3">
-                        <input type="text" class="form-control" name="address" id="address" placeholder="Alamat" required>
+                        <label for="name">Alamat</label>
+                        <input type="text" class="form-control" name="address" id="address" placeholder="Masukkan Alamat" required>
                     </div>
                     <div class="form-group mt-3">
-                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="No. Hp" required>
+                        <label for="name">No. Hp</label>
+                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Masukkan No. Hp" required>
                     </div>
                     <div class="form-group mt-3">
-                        <input type="text" class="form-control" name="instansi" id="instansi" placeholder="Nama Instansi" required>
+                        <label for="name">Instansi</label>
+                        <input type="text" class="form-control" name="instansi" id="instansi" placeholder="Masukkan Nama Instansi" required>
                     </div>
                     <!-- <div class="form-group mt-2">
                         <input type="file" class="form-control" name="cv" id="cv" required>
                     </div> -->
-                    <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="customFile">
-                        <label class="custom-file-label" for="customFile">Choose file</label>
+                    <div class="form-group mt-3">
+                        <label for="name">CV</label>
+                        <input type="file" class="custom-file-input" name="cv" id="customFile" placeholder="CV" required>
+                        <!-- <label class="custom-file-label" for="customFile">Choose file</label> -->
                     </div>
                     <div class="my-3">
                         <div class="loading">Loading</div>

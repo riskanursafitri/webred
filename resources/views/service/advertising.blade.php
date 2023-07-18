@@ -10,7 +10,7 @@
 <link href="{{ asset('user/assets/css/style.css') }}" rel="stylesheet">
 @endpush
 
-<section id="contwrit" class="contwrit" style="padding-top: 10%;">
+<section id="advertising" class="advertising" style="padding-top: 10%;">
     <div class="container">
 
         <header class="section-header" data-aos="fade-up">
@@ -61,7 +61,7 @@
             <div class="tab-pane" id="tab-2">
                 <div class="row">
                     <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                        <h3>Jasa Review Produk, Jasa & Merk / Branding</h3>
+                        <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
                         <p>
                             Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
@@ -88,31 +88,24 @@
             <div class="tab-pane" id="tab-3">
                 <div class="row">
                     <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                        <h3>Unique Articles</h3>
+                        <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
                         <p>
-                            Apakah Anda Mengalami Hal Ini?
-                        <ol>
-                            <li>Jam dan Hari Kerja - Senin s/d Sabtu, pukul 12.00 s/d 18.00 WIB. Kecuali jika ada kebijakan khusus.</li>
-                            <li>Pakaian - Bebas nyaman, kecuali ada instruksi khusus.</li>
-                            <li>Komunikatif - Dengan tetap menjaga hak dan kewajiban masing-masing.</li>
-                        </ol>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum
+                        </p>
+                        <p class="fst-italic">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua.
                         </p>
                         <ul>
-                            <li><i class="ri-check-double-line"></i> Jika hal itu yang Anda alami, berarti kami solusinya!</li>
-                            <li><i class="ri-check-double-line"></i> Kami melayani jasa penulisan artikel SEO berkualitas (Bahasa Indonesia, Jawa & English) | Paling Murah | Berpengalaman | Legal | Revisi Sepuasnya | Human & SEO Friendly.</li>
-
-                        </ul>
-                        <ul>
-                            <li>Konsultasi Gratis</li>
-                            <li>Penulis Profesional dan Berpengalaman</li>
-                            <li>Lolos Copyright</li>
-                            <li>Revisi Sepuasnya</li>
-                            <li>Harga Paling Murah</li>
-                            <li>Pengerjaan Cepat</li>
+                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
                         </ul>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 text-center">
-                        <img src="{{ asset('user/assets/img/unique.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('user/assets/img/features-3.png') }}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

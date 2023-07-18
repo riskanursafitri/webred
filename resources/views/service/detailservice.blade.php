@@ -26,7 +26,7 @@
                     <i class="ri-advertisement-fill icon"></i>
                     <h3>Advertising</h3>
                     <p>Maksimalkan potensi bisnis Anda dengan jasa advertising kami! Kami membawa solusi advertising yang efektif untuk memperluas pangsa pasar Anda.</p>
-                    <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ URL::to('/advertising') }}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@
                     <i class="ri-star-fill icon"></i>
                     <h3>Creative Service</h3>
                     <p>Dapatkan konten yang informatif, menginspirasi, dan memikat untuk membangun keterlibatan pengguna yang kuat dan memperluas jangkauan bisnis Anda secara online.</p>
-                    <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ URL::to('/creativeservice') }}" class="read-more" target="_blank"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -53,7 +53,7 @@
                     <i class="ri-user-fill icon"></i>
                     <h3>IT Consultant</h3>
                     <p>Optimalkan infrastruktur IT Anda dengan jasa konsultan IT kami! Tim konsultan kami yang berpengalaman siap membantu sesuai dengan kebutuhan bisnis Anda.</p>
-                    <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ URL::to('/itconsultant') }}" class="read-more" target="_blank"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -62,7 +62,7 @@
                     <i class="ri-file-edit-line icon"></i>
                     <h3>SEO Service</h3>
                     <p>Tim ahli SEO kami siap membantu Anda mengoptimalkan peringkat pencarian dan mendapatkan lalu lintas organik yang lebih tinggi ke situs web Anda.</p>
-                    <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ URL::to('/seoservice') }}" class="read-more" target="_blank"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
                     <i class="ri-layout-2-fill icon"></i>
                     <h3>Web Development</h3>
                     <p>Hadirkan kehadiran online yang menarik dengan jasa pembuatan web kami! Tim profesional kami siap membantu Anda merancang dan mengembangkan situs web yang responsif, fungsional, dan menarik secara visual.</p>
-                    <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ URL::to('/webdevelopment') }}" class="read-more" target="_blank"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
