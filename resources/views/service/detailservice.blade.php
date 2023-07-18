@@ -26,7 +26,7 @@
                     <i class="ri-advertisement-fill icon"></i>
                     <h3>Advertising</h3>
                     <p>Maksimalkan potensi bisnis Anda dengan jasa advertising kami! Kami membawa solusi advertising yang efektif untuk memperluas pangsa pasar Anda.</p>
-                    <a href="{{ URL::to('/advertising') }}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ URL::to('/advertising') }}" class="read-more" target="_blank"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
