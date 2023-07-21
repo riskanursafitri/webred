@@ -53,27 +53,27 @@
         <div class="col-lg-4">
           <div class="post-box">
             <div class="post-img"><img src="{{ asset('user/assets/img/blog/blog1.jpg') }}" class="img-fluid" alt=""></div>
-            <span class="post-date">29 Juni 2023</span>
+            <span class="post-date">19 Juni 2023</span>
             <h3 class="post-title">Bagaimana caranya agar website mudah ditemukan dan ramai pengunjung ?</h3>
-            <a href="{{ URL::to('/detailblog') }}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="{{ URL::to('/detailblog_pengunjung') }}" target="_blank" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="post-box">
             <div class="post-img"><img src="{{ asset('user/assets/img/blog/blog2.jpg') }}" class="img-fluid" alt=""></div>
-            <span class="post-date">29 Juni 2023</span>
-            <h3 class="post-title">Apa itu SEO?</h3>
-            <a href="{{ URL::to('/detailblog') }}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <span class="post-date">19 Juni 2023</span>
+            <h3 class="post-title">Apa itu SEO (Search Engine Optimization)?</h3>
+            <a href="{{ URL::to('/detailblog_seo') }}" target="_blank" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="post-box">
             <div class="post-img"><img src="{{ asset('user/assets/img/blog/blog3.jpg') }}" class="img-fluid" alt=""></div>
-            <span class="post-date">29 Juni 2023</span>
+            <span class="post-date">19 Juni 2023</span>
             <h3 class="post-title">Macam-macam website</h3>
-            <a href="{{ URL::to('/detailblog') }}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="{{ URL::to('/detailblog_macam_macam') }}" target="_blank" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
@@ -169,7 +169,7 @@
           <div class="portfolio-wrap">
             <img src="{{ asset('user/assets/img/portfolio/foto9.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-            <h4>Dhe Man Coffee</h4>
+              <h4>Dhe Man Coffee</h4>
               <div class="portfolio-links">
                 <a href="https://redlevl.net/assets/video/c52c66735c87292dd331d96145671ed0.mp4" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
               </div>

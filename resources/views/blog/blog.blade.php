@@ -29,7 +29,7 @@
                     <div class="entry-meta">
                         <ul>
                             <li class="d-flex align-items-center"><i class="bi bi-person"></i>RedLevl</a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-15">15 Juli 2023</time></a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-19">19 Juli 2023</time></a></li>
                         </ul>
                     </div>
 
@@ -53,13 +53,13 @@
                     </div>
 
                     <h2 class="entry-title">
-                        Apa itu SEO?
+                        Apa itu SEO (Search Engine Optimization)?
                     </h2>
 
                     <div class="entry-meta">
                         <ul>
                             <li class="d-flex align-items-center"><i class="bi bi-person"></i>RedLevl</a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-15">15 Juli 2023</time></a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-19">19 Juli 2023</time></a></li>
                         </ul>
                     </div>
 
@@ -89,12 +89,12 @@
                     <div class="entry-meta">
                         <ul>
                             <li class="d-flex align-items-center"><i class="bi bi-person"></i>RedLevl</a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-15">15 Juli 2023</time></a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-19">19 Juli 2023</time></a></li>
                     </div>
 
                     <div class="entry-content">
                         <p>
-                        Ada berbagai macam jenis website yang dapat dibedakan berdasarkan tujuan, konten, dan fungsi yang mereka miliki. Berikut adalah beberapa contoh macam-macam website.
+                            Ada berbagai macam jenis website yang dapat dibedakan berdasarkan tujuan, konten, dan fungsi yang mereka miliki. Berikut adalah beberapa contoh macam-macam website.
                         </p>
                         <div class="read-more">
                             <a href="{{ URL::to('/detailblog_macam_macam') }}" target="_blank">Read More</a>
@@ -126,7 +126,7 @@
                             Domain dan web hosting adalah dua elemen penting dalam membangun dan mempublikasikan sebuah situs web. Mari kita bahas keduanya secara terpisah.
                         </p>
                         <div class="read-more">
-                            <a href="blog-single.html" target="_blank">Read More</a>
+                            <a href="{{ URL::to('/detailblog_domain_hosting') }}" target="_blank">Read More</a>
                         </div>
                     </div>
 
@@ -155,7 +155,7 @@
                             Masa aktif website adalah periode waktu di mana sebuah situs web tersedia dan dapat diakses oleh pengunjung melalui internet.
                         </p>
                         <div class="read-more">
-                            <a href="blog-single.html" target="_blank">Read More</a>
+                            <a href="{{ URL::to('/detailblog_masa_aktif') }}" target="_blank">Read More</a>
                         </div>
                     </div>
 
@@ -172,19 +172,19 @@
                     <div class="sidebar-item recent-posts">
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog3.jpg') }}" alt="">
-                            <h4><a href="blog-single.html">Macam-macam website</a></h4>
-                            <time datetime="2023-07-15">15 Juli 2023</time>
+                            <h4><a href="{{ URL::to('/detailblog_macam_macam') }}" target="_blank">Macam-macam website</a></h4>
+                            <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog4.jpg') }}" alt="">
-                            <h4><a href="blog-single.html">Apa itu domain & web hosting?</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_domain_hosting') }}" target="_blank">Apa itu domain & web hosting?</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog5.jpg') }}" alt="">
-                            <h4><a href=" blog-single.html">Masa aktif website</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_masa_aktif') }}" target="_blank">Masa aktif website</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
                     </div>

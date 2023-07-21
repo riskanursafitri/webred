@@ -30,38 +30,37 @@
                 <article class="entry entry-single">
 
                     <div class="entry-img">
-                        <img src="{{ asset('user/assets/img/blog/blog2.jpg') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('user/assets/img/blog/blog5.jpg') }}" alt="" class="img-fluid">
                     </div>
 
                     <h2 class="entry-title">
-                        Apa itu SEO (Search Engine Optimization)?
+                        Masa aktif website
                     </h2>
 
                     <div class="entry-meta">
                         <ul>
                             <li class="d-flex align-items-center"><i class="bi bi-person"></i>RedLevl</a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-06-29">29 Juni, 2023</time></a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-19">19 Juli 2023</time></a></li>
                         </ul>
                     </div>
 
                     <div class="entry-content">
                         <p style="text-align: justify;">
-                            SEO adalah singkatan dari Search Engine Optimization, yang dalam bahasa Indonesia berarti Optimalisasi Mesin Pencari. Ini adalah rangkaian strategi dan teknik yang digunakan untuk meningkatkan peringkat dan kualitas lalu lintas organik (non-berbayar) ke situs web atau halaman tertentu di mesin pencari seperti Google, Bing, Yahoo, dan lainnya.
+                            Masa aktif website adalah periode waktu di mana sebuah situs web tersedia dan dapat diakses oleh pengunjung melalui internet. Masa aktif ini ditentukan oleh berbagai faktor, termasuk pembelian domain dan berlangganan layanan web hosting.
                         </p>
-
+                        <h3>Masa Aktif Domain</h3>
                         <p style="text-align: justify;">
-                            Tujuan dari SEO adalah membuat situs web atau halaman muncul di halaman hasil pencarian (SERP) sesuai dengan relevansi kata kunci tertentu. Dengan mengoptimalkan konten dan struktur situs web, menggunakan kata kunci yang relevan, dan meningkatkan otoritas domain, SEO membantu meningkatkan visibilitas dan kemungkinan lalu lintas yang lebih tinggi dari pengguna yang mencari informasi yang terkait dengan topik atau produk yang Anda tawarkan.
+                            Masa aktif domain biasanya ditentukan oleh lamanya registrasi domain yang Anda beli. Ketika Anda membeli sebuah domain, Anda mendapatkan hak penggunaan domain tersebut selama periode tertentu, misalnya satu tahun atau lebih. Setelah periode ini berakhir, Anda harus memperpanjang registrasi domain untuk mempertahankan kepemilikan dan hak penggunaan domain tersebut. Jika Anda tidak memperpanjangnya, domain bisa saja menjadi tersedia bagi orang lain untuk dibeli.
                         </p>
 
-                        <h3>Teknik SEO</h3>
-                        <ol>
-                            <li>Penelitian kata kunci: Menganalisis kata kunci yang relevan dengan bisnis Anda dan mengidentifikasi kata kunci yang banyak dicari oleh target audiens Anda.</li>
-                            <li>Optimasi konten: Memastikan konten di situs web Anda relevan, informatif, dan memiliki kata kunci yang sesuai agar mudah dipahami oleh mesin pencari dan pengguna.</li>
-                            <li>Optimalisasi teknis: Memperbaiki struktur situs, menggunakan meta tag yang sesuai, mempercepat waktu pemuatan halaman, dan membuat situs mobile-friendly.</li>
-                            <li>Backlink building: Membangun tautan balik (backlink) dari situs web berkualitas tinggi ke situs Anda, yang membantu meningkatkan otoritas domain Anda di mata mesin pencari.</li>
-                            <li>Pengalaman pengguna: Memastikan situs web Anda mudah dinavigasi, memiliki tampilan yang menarik, dan memberikan pengalaman pengguna yang baik.</li>
-                            <li>Analisis dan pemantauan: Melacak kinerja situs web Anda dengan menggunakan alat analisis web dan mengidentifikasi area yang perlu ditingkatkan.</li>
-                        </ol>
+                        <h3>Masa Aktif Web Hosting</h3>
+                        <p style="text-align: justify;">
+                            Masa aktif web hosting ditentukan oleh jangka waktu langganan yang Anda pilih saat membeli layanan hosting. Banyak penyedia web hosting menawarkan berbagai pilihan periode langganan, seperti bulanan, tahunan, dua tahunan, atau bahkan lebih. Anda harus memastikan untuk memperbarui langganan hosting sebelum periode berakhir agar situs web Anda tetap aktif dan dapat diakses.
+                        </p>
+
+                        <i style="text-align: justify;">
+                            Penting untuk selalu memastikan bahwa domain dan layanan hosting Anda selalu dalam keadaan aktif dan diperbarui tepat waktu. Jika Anda tidak memperbarui domain atau hosting, situs web Anda mungkin akan menjadi tidak dapat diakses oleh pengunjung, dan data serta konten situs web Anda bisa hilang jika tidak di-backup secara teratur.
+                        </i>
                     </div>
                 </article><!-- End blog entry -->
 
@@ -88,8 +87,8 @@
                         </div>
 
                         <div class="post-item clearfix">
-                            <img src="{{ asset('user/assets/img/blog/blog5.jpg') }}" alt="">
-                            <h4><a href="{{ URL::to('/detailblog_masa_aktif') }}" target="_blank">Masa aktif website</a></h4>
+                            <img src="{{ asset('user/assets/img/blog/blog2.jpg') }}" alt="">
+                            <h4><a href="{{ URL::to('/detailblog_seo') }}" target="_blank">Apa itu SEO (Search Engine Optimization)? </a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
                     </div>

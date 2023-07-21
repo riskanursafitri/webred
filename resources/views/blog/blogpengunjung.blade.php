@@ -46,9 +46,9 @@
 
                     <div class="entry-content">
                         <p style="text-align: justify;">
-                            Agar website Anda mudah ditemukan dan mendapatkan banyak pengunjung, Anda perlu menerapkan berbagai strategi 
+                            Agar website Anda mudah ditemukan dan mendapatkan banyak pengunjung, Anda perlu menerapkan berbagai strategi
                             <u><a href="{{ URL::to('/detailblog_seo') }}" target="_blank">SEO (Search Engine Optimization)</a></u>
-                             dan taktik pemasaran digital. Berikut adalah beberapa cara untuk meningkatkan visibilitas dan lalu lintas pengunjung ke situs web Anda:
+                            dan taktik pemasaran digital. Berikut adalah beberapa cara untuk meningkatkan visibilitas dan lalu lintas pengunjung ke situs web Anda:
                         </p>
                         <ol style="text-align: justify;">
                             <li>Penelitian Kata Kunci: Lakukan penelitian kata kunci untuk menemukan kata kunci yang relevan dan banyak dicari oleh target audiens Anda. Gunakan kata kunci ini dalam konten situs web Anda untuk meningkatkan peringkat di hasil mesin pencari.</li>
@@ -77,19 +77,19 @@
                     <div class="sidebar-item recent-posts">
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog3.jpg') }}" alt="">
-                            <h4><a href="blog-single.html">Macam-macam website</a></h4>
-                            <time datetime="2023-07-15">15 Juli 2023</time>
+                            <h4><a href="{{ URL::to('/detailblog_macam_macam') }}" target="_blank">Macam-macam website</a></h4>
+                            <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog4.jpg') }}" alt="">
-                            <h4><a href="blog-single.html">Apa itu domain & web hosting?</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_domain_hosting') }}" target="_blank">Apa itu domain & web hosting?</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog5.jpg') }}" alt="">
-                            <h4><a href=" blog-single.html">Masa aktif website</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_masa_aktif') }}" target="_blank">Masa aktif website</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
                     </div>

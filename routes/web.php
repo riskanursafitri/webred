@@ -41,6 +41,10 @@ Route::get('/detailblog_domain_hosting', function () {
     return view('blog.blogdomain');
 });
 
+Route::get('/detailblog_masa_aktif', function () {
+    return view('blog.blogmasa');
+});
+
 Route::get('/gallery', function () {
     return view('gallery');
 });

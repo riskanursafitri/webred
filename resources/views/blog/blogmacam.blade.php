@@ -40,18 +40,28 @@
                     <div class="entry-meta">
                         <ul>
                             <li class="d-flex align-items-center"><i class="bi bi-person"></i>RedLevl</a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-15">15 Juli 2023</time></a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-19">19 Juli 2023</time></a></li>
                         </ul>
                     </div>
 
                     <div class="entry-content">
                         <p style="text-align: justify;">
-                            Domain dan web hosting adalah dua elemen penting dalam membangun dan mempublikasikan sebuah situs web. Mari kita bahas keduanya secara terpisah:
+                            Ada berbagai macam jenis website yang dapat dibedakan berdasarkan tujuan, konten, dan fungsi yang mereka miliki. Berikut adalah beberapa contoh macam-macam website:
                         </p>
-
-                        <h3>Domain</h3>
-
-                        <h3>Web Hosting</h3>
+                        <ol style="text-align: justify;">
+                            <li>Blog: Website yang berfokus pada publikasi konten berupa tulisan, gambar, atau video. Biasanya berisi postingan yang disusun berdasarkan tanggal, dan pemilik blog dapat berbagi pandangan, pengalaman, dan informasi terkini mengenai topik tertentu.</li>
+                            <li>Situs Berita: Website yang menyajikan berita terkini dan informasi aktual dari berbagai bidang seperti politik, olahraga, bisnis, teknologi, dan lain-lain.</li>
+                            <li>E-commerce: Website yang digunakan untuk melakukan transaksi jual beli produk atau layanan secara online. Pelanggan dapat menelusuri katalog produk, menambahkan produk ke keranjang belanja, dan melakukan pembayaran secara elektronik.</li>
+                            <li>Portal: Website yang menyediakan berbagai konten dan layanan yang terorganisir dalam kategori tertentu. Portal sering menjadi titik masuk atau pintu gerbang bagi pengguna untuk mengakses berbagai sumber daya dan layanan lainnya di internet.</li>
+                            <li>Forum atau Komunitas: Website yang memungkinkan pengguna untuk berinteraksi, berdiskusi, dan berbagi informasi mengenai topik tertentu. Pengguna dapat membuat postingan, memberikan komentar, dan berpartisipasi dalam diskusi.</li>
+                            <li>Portofolio atau Personal Website: Website yang digunakan oleh individu untuk memamerkan karya, proyek, atau portofolio mereka. Ini sering digunakan oleh seniman, fotografer, desainer, dan profesional kreatif lainnya.</li>
+                            <li>Sosial Media: Website yang memungkinkan pengguna untuk berinteraksi dan berkomunikasi satu sama lain. Ini termasuk platform seperti Facebook, Twitter, Instagram, dan LinkedIn.</li>
+                            <li>Situs Pemerintah: Website yang digunakan oleh pemerintah untuk menyediakan informasi publik, layanan, dan interaksi dengan masyarakat.</li>
+                            <li>Edukasi atau E-learning: Website yang menyediakan materi pembelajaran, kursus, atau konten edukatif untuk belajar secara online.</li>
+                            <li>Streaming Media: Website yang menyediakan konten media seperti video atau audio yang dapat ditonton atau didengarkan secara langsung melalui internet.</li>
+                            <li>Search Engines: Website yang digunakan untuk mencari informasi di internet dengan memberikan hasil pencarian berdasarkan kata kunci yang dimasukkan pengguna.</li>
+                            <li>Wiki: Website yang digunakan untuk menciptakan dan mengedit konten secara kolaboratif oleh pengguna. Salah satu contoh terkenal adalah Wikipedia.</li>
+                        </ol>
                     </div>
                 </article><!-- End blog entry -->
 
@@ -66,20 +76,20 @@
                     <h3 class="sidebar-title">Yang Disarankan</h3>
                     <div class="sidebar-item recent-posts">
                         <div class="post-item clearfix">
-                            <img src="{{ asset('user/assets/img/blog/blog1.jpg') }}" alt="">
-                            <h4><a href="{{ URL::to('/detailblog_seo') }}">Apa itu SEO?</a></h4>
-                            <time datetime="2023-07-15">15 Juli 2023</time>
+                            <img src="{{ asset('user/assets/img/blog/blog4.jpg') }}" alt="">
+                            <h4><a href="{{ URL::to('/detailblog_domain_hosting') }}" target="_blank">Apa itu domain & web hosting?</a></h4>
+                            <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
-                            <img src="{{ asset('user/assets/img/blog/blog4.jpg') }}" alt="">
-                            <h4><a href="blog-single.html">Apa itu domain & web hosting?</a></h4>
+                            <img src="{{ asset('user/assets/img/blog/blog2.jpg') }}" alt="">
+                            <h4><a href="{{ URL::to('/detailblog_seo') }}" target="_blank">Apa itu SEO (Search Engine Optimization)?</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog5.jpg') }}" alt="">
-                            <h4><a href=" blog-single.html">Masa aktif website</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_masa_aktif') }}" target="_blank">Masa aktif website</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
                     </div>
