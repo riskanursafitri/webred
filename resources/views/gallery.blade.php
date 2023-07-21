@@ -31,7 +31,7 @@
     </div>
 
     <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-      
+
       <div class="col-lg-4 col-md-6 portfolio-item filter-photo">
         <div class="portfolio-wrap">
           <img src="{{ asset('user/assets/img/portfolio/foto2.jpeg') }}" class="img-fluid" alt="">
@@ -130,12 +130,11 @@
 
       <div class="col-lg-4 col-md-6 portfolio-item filter-video">
         <div class="portfolio-wrap">
-          <!-- <img src="{{ asset('user/assets/img/portfolio/foto5.jpeg') }}" class="img-fluid" alt=""> -->
-          <video controls poster="https://redlevl.net/assets/video/c52c66735c87292dd331d96145671ed0.mp4"></video>
+          <img src="{{ asset('user/assets/img/portfolio/foto9.jpg') }}" class="img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Dhe Man Coffee</h4>
             <div class="portfolio-links">
-              <a href="https://redlevl.net/assets/video/c52c66735c87292dd331d96145671ed0.mp4" data-gallery="portfolioGallery" class="portfokio-lightbox" type="video/mp4"><i class="bi bi-plus"></i></a>
+              <a href="https://redlevl.net/assets/video/c52c66735c87292dd331d96145671ed0.mp4" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
             </div>
           </div>
         </div>

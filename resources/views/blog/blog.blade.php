@@ -29,16 +29,16 @@
                     <div class="entry-meta">
                         <ul>
                             <li class="d-flex align-items-center"><i class="bi bi-person"></i>RedLevl</a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-06-29">29 Juni, 2023</time></a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-15">15 Juli 2023</time></a></li>
                         </ul>
                     </div>
 
                     <div class="entry-content">
                         <p>
-                            Selain layanan pembuatan website, kami juga menyediakan layanan iklan di Google Ads. Google Ads sendiri merupakan program periklanan online yang dibuat oleh Google untuk menempatkan website / toko online dihalaman pertama dan teratas pencarian Google dan jutaan website yang masuk dalam jaringan Google dengan sistem pembayaran Pay Per Click (Bayar jika ada yang meng-klik dan mengunjungi website anda)
+                            Agar website Anda mudah ditemukan dan mendapatkan banyak pengunjung, Anda perlu menerapkan berbagai strategi SEO (Search Engine Optimization) dan taktik pemasaran digital.
                         </p>
                         <div class="read-more">
-                            <a href="{{ URL::to('/detailblog') }}">Read More</a>
+                            <a href="{{ URL::to('/detailblog_pengunjung') }}" target="_blank">Read More</a>
                         </div>
                     </div>
 
@@ -59,7 +59,7 @@
                     <div class="entry-meta">
                         <ul>
                             <li class="d-flex align-items-center"><i class="bi bi-person"></i>RedLevl</a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2020-01-01">29 Juni, 2023</time></a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-15">15 Juli 2023</time></a></li>
                         </ul>
                     </div>
 
@@ -68,7 +68,7 @@
                             SEO adalah singkatan dari Search Engine Optimization. Ini merujuk pada serangkaian praktik dan strategi yang digunakan untuk meningkatkan visibilitas dan peringkat sebuah situs web di hasil pencarian mesin telusur seperti Google, Bing, dan Yahoo.
                         </p>
                         <div class="read-more">
-                            <a href="blog-single.html">Read More</a>
+                            <a href="{{ URL::to('/detailblog_seo') }}" target="_blank">Read More</a>
                         </div>
                     </div>
 
@@ -89,13 +89,41 @@
                     <div class="entry-meta">
                         <ul>
                             <li class="d-flex align-items-center"><i class="bi bi-person"></i>RedLevl</a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2020-01-01">29 Juni, 2023</time></a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-15">15 Juli 2023</time></a></li>
                     </div>
 
                     <div class="entry-content">
                         <p>
-                            Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
-                            Doloremque est saepe laborum aut. Ipsa cupiditate ex harum at recusandae nesciunt. Ut dolores velit.
+                        Ada berbagai macam jenis website yang dapat dibedakan berdasarkan tujuan, konten, dan fungsi yang mereka miliki. Berikut adalah beberapa contoh macam-macam website.
+                        </p>
+                        <div class="read-more">
+                            <a href="{{ URL::to('/detailblog_macam_macam') }}" target="_blank">Read More</a>
+                        </div>
+                    </div>
+
+                </article>
+                <!-- end blog3 -->
+
+                <!-- blog4 -->
+                <article class="entry">
+
+                    <div class="entry-img">
+                        <img src="{{ asset('user/assets/img/blog/blog4.jpg') }}" alt="" class="img-fluid">
+                    </div>
+
+                    <h2 class="entry-title">
+                        Apa itu domain & web hosting?
+                    </h2>
+
+                    <div class="entry-meta">
+                        <ul>
+                            <li class="d-flex align-items-center"><i class="bi bi-person"></i>RedLevl</a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-19">19 Juli 2023</time></a></li>
+                    </div>
+
+                    <div class="entry-content">
+                        <p>
+                            Domain dan web hosting adalah dua elemen penting dalam membangun dan mempublikasikan sebuah situs web. Mari kita bahas keduanya secara terpisah.
                         </p>
                         <div class="read-more">
                             <a href="blog-single.html" target="_blank">Read More</a>
@@ -103,7 +131,36 @@
                     </div>
 
                 </article>
-                <!-- end blog3 -->
+                <!-- end blog4 -->
+
+                <!-- blog5 -->
+                <article class="entry">
+
+                    <div class="entry-img">
+                        <img src="{{ asset('user/assets/img/blog/blog5.jpg') }}" alt="" class="img-fluid">
+                    </div>
+
+                    <h2 class="entry-title">
+                        Masa aktif website
+                    </h2>
+
+                    <div class="entry-meta">
+                        <ul>
+                            <li class="d-flex align-items-center"><i class="bi bi-person"></i>RedLevl</a></li>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2023-07-19">19 Juli 2023</time></a></li>
+                    </div>
+
+                    <div class="entry-content">
+                        <p>
+                            Masa aktif website adalah periode waktu di mana sebuah situs web tersedia dan dapat diakses oleh pengunjung melalui internet.
+                        </p>
+                        <div class="read-more">
+                            <a href="blog-single.html" target="_blank">Read More</a>
+                        </div>
+                    </div>
+
+                </article>
+                <!-- end blog5 -->
             </div>
 
             <!-- side bar -->
@@ -114,35 +171,22 @@
                     <h3 class="sidebar-title">Yang Disarankan</h3>
                     <div class="sidebar-item recent-posts">
                         <div class="post-item clearfix">
-                            <img src="{{ asset('user/assets/img/blog/blog1.jpg') }}" alt="">
-                            <h4><a href="blog-single.html">Nihil blanditiis at in nihil autem</a></h4>
-                            <time datetime="2020-01-01">Jan 1, 2020</time>
+                            <img src="{{ asset('user/assets/img/blog/blog3.jpg') }}" alt="">
+                            <h4><a href="blog-single.html">Macam-macam website</a></h4>
+                            <time datetime="2023-07-15">15 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
-                            <img src="{{ asset('user/assets/img/blog/blog2.jpg') }}" alt="">
-                            <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
-                            <time datetime="2020-01-01">Jan 1, 2020</time>
+                            <img src="{{ asset('user/assets/img/blog/blog4.jpg') }}" alt="">
+                            <h4><a href="blog-single.html">Apa itu domain & web hosting?</a></h4>
+                            <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
-                            <img src="assets/img/blog/blog-recent-3.jpg" alt="">
-                            <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a></h4>
-                            <time datetime="2020-01-01">Jan 1, 2020</time>
+                            <img src="{{ asset('user/assets/img/blog/blog5.jpg') }}" alt="">
+                            <h4><a href=" blog-single.html">Masa aktif website</a></h4>
+                            <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
-
-                        <div class="post-item clearfix">
-                            <img src="assets/img/blog/blog-recent-4.jpg" alt="">
-                            <h4><a href="blog-single.html">Laborum corporis quo dara net para</a></h4>
-                            <time datetime="2020-01-01">Jan 1, 2020</time>
-                        </div>
-
-                        <div class="post-item clearfix">
-                            <img src="assets/img/blog/blog-recent-5.jpg" alt="">
-                            <h4><a href="blog-single.html">Et dolores corrupti quae illo quod dolor</a></h4>
-                            <time datetime="2020-01-01">Jan 1, 2020</time>
-                        </div>
-
                     </div>
                     <!-- end recent post -->
 
@@ -150,13 +194,13 @@
             </div>
             <!-- end side bar -->
 
-            <div class="blog-pagination">
+            <!-- <div class="blog-pagination">
                 <ul class="justify-content-center">
                     <li class="active"><a href="#">1</a></li>
                     <li><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
 

@@ -43,19 +43,19 @@
                 <div class="service-box three">
                     <i class="ri-star-fill icon"></i>
                     <h3>Creative Service</h3>
-                    <p>Dapatkan konten yang informatif, menginspirasi, dan memikat untuk membangun keterlibatan pengguna yang kuat dan memperluas jangkauan bisnis Anda secara online.</p>
-                    <a href="{{ URL::to('/creativeservice') }}" class="read-more" target="_blank"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    <p>Buka kekuatan kreativitas dengan rangkaian layanan kami yang memadukan imajinasi, strategi, dan inovasi. Tim kami siap mewujudkan visi Anda, menciptakan pengalaman tak terlupakan untuk brand Anda.</p>
+                    <a href="{{ URL::to('/creativeservice') }}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="service-box four">
                     <i class="ri-user-fill icon"></i>
                     <h3>IT Consultant</h3>
                     <p>Optimalkan infrastruktur IT Anda dengan jasa konsultan IT kami! Tim konsultan kami yang berpengalaman siap membantu sesuai dengan kebutuhan bisnis Anda.</p>
                     <a href="{{ URL::to('/itconsultant') }}" class="read-more" target="_blank"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                 <div class="service-box five">

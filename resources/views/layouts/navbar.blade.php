@@ -46,7 +46,7 @@
             <!-- navbar -->
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="{{ URL::to('/') }}">Home</a></li>
+                    <li><a class="nav-link scrollto" href="{{ URL::to('/') }}">Home</a></li>
                     <li><a class="nav-link scrollto" href="{{ URL::to('/about') }}">About</a></li>
                     <li><a class="nav-link scrollto" href="{{ URL::to('/blog') }}">Blog</a></li>
                     <li><a class="nav-link scrollto" href="{{ URL::to('/gallery') }}">Gallery</a></li>
@@ -54,11 +54,11 @@
                     <li class="dropdown"><a href="{{ URL::to('/detailservice') }}"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ URL::to('/advertising') }}">Advertising</a></li>
-                            <li><a href="#">Content Writing</a></li>
-                            <li><a href="#">Creative Service</a></li>
-                            <li><a href="#">IT Consultant</a></li>
-                            <li><a href="#">SEO</a></li>
-                            <li><a href="#">Web Development</a></li>
+                            <li><a href="{{ URL::to('/contentwriting') }}">Content Writing</a></li>
+                            <li><a href="{{ URL::to('/creativeservice') }}">Creative Service</a></li>
+                            <!-- <li><a href="#">IT Consultant</a></li> -->
+                            <li><a href="{{ URL::to('/seoservice') }}">SEO Service</a></li>
+                            <li><a href="{{ URL::to('/webdevelopment') }}">Web Development</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -83,10 +83,11 @@
                         </a>
                         <p>A leading innovative digital media service in helping the community, especially business people.</p>
                         <div class="social-links mt-3">
-                            <a href="https://www.facebook.com/RedLevl/" class="facebook"><i class="bi bi-facebook"></i></a>
-                            <a href="https://www.instagram.com/redlevl/" class="instagram"><i class="bi bi-instagram"></i></a>
-                            <a href="https://wa.me/6281333153153" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
-                            <a href="mailto:redlevlmediatama@gmail.com" class="gmail"><i class="bi bi-envelope"></i></a>
+                            <a href="https://www.facebook.com/RedLevl/" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/redlevl/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+                            <a href="https://wa.me/6281333153153" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                            <a href="mailto:redlevlmediatama@gmail.com" class="gmail" target="_blank"><i class="bi bi-envelope"></i></a>
+                            <a href="https://www.google.com/maps/@-7.9345153,112.6721868,21z?entry=ttu" class="location" target="_blank"><i class="bi bi-geo-alt"></i></a>
                         </div>
                     </div>
 

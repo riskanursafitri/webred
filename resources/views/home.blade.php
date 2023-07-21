@@ -158,7 +158,6 @@
           <div class="portfolio-wrap">
             <img src="{{ asset('user/assets/img/portfolio/foto5.jpeg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <!-- <h4>Web 2</h4> -->
               <div class="portfolio-links">
                 <a href="{{ asset('user/assets/img/portfolio/foto5.jpeg') }}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
               </div>
@@ -168,12 +167,11 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-video">
           <div class="portfolio-wrap">
-            <!-- <img src="{{ asset('user/assets/img/portfolio/foto5.jpeg') }}" class="img-fluid" alt=""> -->
-            <video controls poster="https://redlevl.net/assets/video/c52c66735c87292dd331d96145671ed0.mp4"></video>
+            <img src="{{ asset('user/assets/img/portfolio/foto9.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Dhe Man Coffee</h4>
+            <h4>Dhe Man Coffee</h4>
               <div class="portfolio-links">
-                <a href="https://redlevl.net/assets/video/c52c66735c87292dd331d96145671ed0.mp4" data-gallery="portfolioGallery" class="portfokio-lightbox" type="video/mp4"><i class="bi bi-plus"></i></a>
+                <a href="https://redlevl.net/assets/video/c52c66735c87292dd331d96145671ed0.mp4" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
               </div>
             </div>
           </div>
@@ -243,7 +241,7 @@
             <i class="ri-edit-line icon"></i>
             <h3>Content Writing</h3>
             <p>Dapatkan konten yang informatif, menginspirasi, dan memikat untuk membangun keterlibatan pengguna yang kuat dan memperluas jangkauan bisnis Anda secara online.</p>
-            <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            <a href="{{ URL::to('/contentwriting') }}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
@@ -251,26 +249,26 @@
           <div class="service-box three">
             <i class="ri-star-fill icon"></i>
             <h3>Creative Service</h3>
-            <p>Dapatkan konten yang informatif, menginspirasi, dan memikat untuk membangun keterlibatan pengguna yang kuat dan memperluas jangkauan bisnis Anda secara online.</p>
-            <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            <p>Buka kekuatan kreativitas dengan rangkaian layanan kami yang memadukan imajinasi, strategi, dan inovasi. Tim kami siap mewujudkan visi Anda, menciptakan pengalaman tak terlupakan untuk brand Anda.</p>
+            <a href="{{ URL::to('/creativeservice') }}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
           <div class="service-box four">
             <i class="ri-user-fill icon"></i>
             <h3>IT Consultant</h3>
             <p>Optimalkan infrastruktur IT Anda dengan jasa konsultan IT kami! Tim konsultan kami yang berpengalaman siap membantu sesuai dengan kebutuhan bisnis Anda.</p>
-            <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            <a href="{{ URL::to('/itconsultant') }}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
-        </div>
+        </div> -->
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
           <div class="service-box five">
             <i class="ri-file-edit-line icon"></i>
             <h3>SEO Service</h3>
             <p>Tim ahli SEO kami siap membantu Anda mengoptimalkan peringkat pencarian dan mendapatkan lalu lintas organik yang lebih tinggi ke situs web Anda.</p>
-            <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            <a href="{{ URL::to('/seoservice') }}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
@@ -279,7 +277,7 @@
             <i class="ri-layout-2-fill icon"></i>
             <h3>Web Development</h3>
             <p>Hadirkan kehadiran online yang menarik dengan jasa pembuatan web kami! Tim profesional kami siap membantu Anda merancang dan mengembangkan situs web yang responsif, fungsional, dan menarik secara visual.</p>
-            <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            <a href="{{ URL::to('/webdevelopment') }}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
