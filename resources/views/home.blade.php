@@ -28,7 +28,7 @@
         </div>
       </div>
       <div class="col-lg-6 home1" data-aos="zoom-out" data-aos-delay="200">
-        <img src="{{ asset('user/assets/img/home1.png') }}" class="img-fluid" alt="">
+        <img src="{{ asset('user/assets/img/logo.png') }}" class="img-fluid" alt="">
       </div>
     </div>
   </div>

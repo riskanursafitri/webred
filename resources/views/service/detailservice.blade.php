@@ -44,7 +44,7 @@
                     <i class="ri-star-fill icon"></i>
                     <h3>Creative Service</h3>
                     <p>Buka kekuatan kreativitas dengan rangkaian layanan kami yang memadukan imajinasi, strategi, dan inovasi. Tim kami siap mewujudkan visi Anda, menciptakan pengalaman tak terlupakan untuk brand Anda.</p>
-                    <a href="{{ URL::to('/creativeservice') }}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ URL::to('/creativeservice') }}" class="read-more" target="_blank"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
