@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="order" data-aos="fade-up">
-                <a href="https://wa.me/6281333153153" target="_blank">Order Product</a>
+                <a href="https://wa.me/6281333153153">Order Product</a>
             </div>
     </div>
 

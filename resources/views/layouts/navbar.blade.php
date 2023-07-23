@@ -72,6 +72,7 @@
     </header>
     <!-- end header -->
     @yield('content')
+    @include('sweetalert::alert')
 
     <!-- footer -->
     <footer id="footer" class="footer">
@@ -85,11 +86,11 @@
                         </a>
                         <p>A leading innovative digital media service in helping the community, especially business people.</p>
                         <div class="social-links mt-3">
-                            <a href="https://www.facebook.com/RedLevl/" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
-                            <a href="https://www.instagram.com/redlevl/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-                            <a href="https://wa.me/6281333153153" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
-                            <a href="mailto:redlevlmediatama@gmail.com" class="gmail" target="_blank"><i class="bi bi-envelope"></i></a>
-                            <a href="https://www.google.com/maps/@-7.9345153,112.6721868,21z?entry=ttu" class="location" target="_blank"><i class="bi bi-geo-alt"></i></a>
+                            <a href="https://www.facebook.com/RedLevl/" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/redlevl/" class="instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="https://wa.me/6281333153153" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+                            <a href="mailto:redlevlmediatama@gmail.com" class="gmail"><i class="bi bi-envelope"></i></a>
+                            <a href="https://www.google.com/maps/@-7.9345153,112.6721868,21z?entry=ttu" class="location"><i class="bi bi-geo-alt"></i></a>
                         </div>
                     </div>
 

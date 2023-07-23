@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GuestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,6 +57,8 @@ Route::get('/internship', function () {
 Route::get('/internshipdata', function () {
     return view('internship.internshipdata');
 });
+
+Route::post('/internshipdata/create', [GuestController::class, 'internshipCreate'])->name('internshipdata.create');
 
 Route::get('/detailservice', function () {
     return view('service.detailservice');

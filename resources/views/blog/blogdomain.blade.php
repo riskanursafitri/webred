@@ -85,19 +85,19 @@
                     <div class="sidebar-item recent-posts">
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog3.jpg') }}" alt="">
-                            <h4><a href="{{ URL::to('/detailblog_macam_macam') }}" target="_blank">Macam-macam website</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_macam_macam') }}">Macam-macam website</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog2.jpg') }}" alt="">
-                            <h4><a href="{{ URL::to('/detailblog_seo') }}" target="_blank">Apa itu SEO (Search Engine Optimization)?</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_seo') }}">Apa itu SEO (Search Engine Optimization)?</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog4.jpg') }}" alt="">
-                            <h4><a href="{{ URL::to('/detailblog_masa_aktif') }}" target="_blank">Apa itu domain & web hosting?</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_masa_aktif') }}">Apa itu domain & web hosting?</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
                     </div>

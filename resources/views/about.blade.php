@@ -91,14 +91,14 @@
                 <div class="row">
                     <div class="col">
                         <div class="info-box">
-                            <a href="https://www.google.com/maps/@-7.9345153,112.6721868,21z?entry=ttu" target="_blank"><i class="bi bi-geo-alt"></i></a>
+                            <a href="https://www.google.com/maps/@-7.9345153,112.6721868,21z?entry=ttu"><i class="bi bi-geo-alt"></i></a>
                             <h3>Address</h3>
                             <p>Jl. Dipomanggolo V No 280</p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="info-box">
-                            <a href="https://wa.me/6281333153153" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                            <a href="https://wa.me/6281333153153" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
                             <h3>Call Us</h3>
                             <p>+6281-333-153-153</p>
                         </div>

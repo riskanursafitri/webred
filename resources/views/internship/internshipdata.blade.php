@@ -18,7 +18,8 @@
 
         <div class="row mt-2 justify-content-center" data-aos="fade-up">
             <div class="col-lg-10">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <form method="POST" action="{{ route('internshipdata.create') }}" enctype="multipart/form-data">
+                    @csrf
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <label for="name">Nama Lengkap</label>
@@ -35,7 +36,7 @@
                     </div>
                     <div class="form-group mt-3">
                         <label for="name">No. Hp</label>
-                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Masukkan No. Hp" required>
+                        <input type="number" class="form-control" name="phone_number" id="phone_number" placeholder="Masukkan No. Hp" required>
                     </div>
                     <div class="form-group mt-3">
                         <label for="name">Instansi</label>
@@ -45,16 +46,17 @@
                         <input type="file" class="form-control" name="cv" id="cv" required>
                     </div> -->
                     <div class="form-group mt-3">
-                        <label for="name">CV</label>
-                        <input type="file" class="custom-file-input" name="cv" id="customFile" placeholder="CV" required>
+                        <label for="name">CV</label><br>
+                        <input type="file" class="form-control custom-file-input" name="file" id="customFile" placeholder="CV" required>
                         <!-- <label class="custom-file-label" for="customFile">Choose file</label> -->
                     </div>
-                    <div class="my-3">
+                    <!-- <div class="my-3">
                         <div class="loading">Loading</div>
                         <div class="error-message"></div>
                         <div class="sent-message">Your message has been sent. Thank you!</div>
-                    </div>
-                    <div class="text-center"><button type="submit">Send Message</button></div>
+                    </div> -->
+                    <!-- <div class="text-center"><button type="submit">Join Internship</button></div> -->
+                    <button class="button" data-aos="fade-up">Join Internship</button>
                 </form>
             </div>
         </div>

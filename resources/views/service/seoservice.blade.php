@@ -66,7 +66,7 @@
                                                 <p style="text-align: justify;">Ask me about my custom gig where I can guarantee map ranking improvements in 30-60 days. In some cases, I will guarantee map pack ranking and If I didn’t deliver what I promise by the end of the campaign, I'll cancel the gig and return your money.</p>
                                             </ul><br>
                                             <div class="order" data-aos="fade-up">
-                                                <a href="https://wa.me/6281333153153" target="_blank">Order Product</a>
+                                                <a href="https://wa.me/6281333153153">Order Product</a>
                                             </div>
                                         </div>
                                     </div>
@@ -107,7 +107,7 @@
                                                 <p style="text-align: justify;">Try us once and you WILL NOT be disappointed!!!</p>
                                             </ul><br>
                                             <div class="order" data-aos="fade-up">
-                                                <a href="https://wa.me/6281333153153" target="_blank">Order Product</a>
+                                                <a href="https://wa.me/6281333153153">Order Product</a>
                                             </div>
                                         </div>
                                     </div>
@@ -151,7 +151,7 @@
                                                 <b style="text-align: justify;">IMPORTANT NOTE: This gig is Only for YouTube Videos.</b>
                                             </ul><br>
                                             <div class="order" data-aos="fade-up">
-                                                <a href="https://wa.me/6281333153153" target="_blank">Order Product</a>
+                                                <a href="https://wa.me/6281333153153">Order Product</a>
                                             </div>
                                         </div>
                                     </div>
@@ -185,7 +185,7 @@
                         </div>
                     </div>
                     <div class="order" data-aos="fade-up">
-                        <a href="https://wa.me/6281333153153" target="_blank">Order Product</a>
+                        <a href="https://wa.me/6281333153153">Order Product</a>
                     </div>
                 </div>
                 <!-- end OFF-Page SEO -->

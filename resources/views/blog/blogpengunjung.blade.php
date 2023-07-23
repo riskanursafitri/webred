@@ -47,7 +47,7 @@
                     <div class="entry-content">
                         <p style="text-align: justify;">
                             Agar website Anda mudah ditemukan dan mendapatkan banyak pengunjung, Anda perlu menerapkan berbagai strategi
-                            <u><a href="{{ URL::to('/detailblog_seo') }}" target="_blank">SEO (Search Engine Optimization)</a></u>
+                            <u><a href="{{ URL::to('/detailblog_seo') }}">SEO (Search Engine Optimization)</a></u>
                             dan taktik pemasaran digital. Berikut adalah beberapa cara untuk meningkatkan visibilitas dan lalu lintas pengunjung ke situs web Anda:
                         </p>
                         <ol style="text-align: justify;">
@@ -77,19 +77,19 @@
                     <div class="sidebar-item recent-posts">
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog3.jpg') }}" alt="">
-                            <h4><a href="{{ URL::to('/detailblog_macam_macam') }}" target="_blank">Macam-macam website</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_macam_macam') }}">Macam-macam website</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog4.jpg') }}" alt="">
-                            <h4><a href="{{ URL::to('/detailblog_domain_hosting') }}" target="_blank">Apa itu domain & web hosting?</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_domain_hosting') }}">Apa itu domain & web hosting?</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog5.jpg') }}" alt="">
-                            <h4><a href="{{ URL::to('/detailblog_masa_aktif') }}" target="_blank">Masa aktif website</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_masa_aktif') }}">Masa aktif website</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
                     </div>

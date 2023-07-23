@@ -38,7 +38,7 @@
                             Agar website Anda mudah ditemukan dan mendapatkan banyak pengunjung, Anda perlu menerapkan berbagai strategi SEO (Search Engine Optimization) dan taktik pemasaran digital.
                         </p>
                         <div class="read-more">
-                            <a href="{{ URL::to('/detailblog_pengunjung') }}" target="_blank">Read More</a>
+                            <a href="{{ URL::to('/detailblog_pengunjung') }}">Read More</a>
                         </div>
                     </div>
 
@@ -68,7 +68,7 @@
                             SEO adalah singkatan dari Search Engine Optimization. Ini merujuk pada serangkaian praktik dan strategi yang digunakan untuk meningkatkan visibilitas dan peringkat sebuah situs web di hasil pencarian mesin telusur seperti Google, Bing, dan Yahoo.
                         </p>
                         <div class="read-more">
-                            <a href="{{ URL::to('/detailblog_seo') }}" target="_blank">Read More</a>
+                            <a href="{{ URL::to('/detailblog_seo') }}">Read More</a>
                         </div>
                     </div>
 
@@ -97,7 +97,7 @@
                             Ada berbagai macam jenis website yang dapat dibedakan berdasarkan tujuan, konten, dan fungsi yang mereka miliki. Berikut adalah beberapa contoh macam-macam website.
                         </p>
                         <div class="read-more">
-                            <a href="{{ URL::to('/detailblog_macam_macam') }}" target="_blank">Read More</a>
+                            <a href="{{ URL::to('/detailblog_macam_macam') }}">Read More</a>
                         </div>
                     </div>
 
@@ -126,7 +126,7 @@
                             Domain dan web hosting adalah dua elemen penting dalam membangun dan mempublikasikan sebuah situs web. Mari kita bahas keduanya secara terpisah.
                         </p>
                         <div class="read-more">
-                            <a href="{{ URL::to('/detailblog_domain_hosting') }}" target="_blank">Read More</a>
+                            <a href="{{ URL::to('/detailblog_domain_hosting') }}">Read More</a>
                         </div>
                     </div>
 
@@ -155,7 +155,7 @@
                             Masa aktif website adalah periode waktu di mana sebuah situs web tersedia dan dapat diakses oleh pengunjung melalui internet.
                         </p>
                         <div class="read-more">
-                            <a href="{{ URL::to('/detailblog_masa_aktif') }}" target="_blank">Read More</a>
+                            <a href="{{ URL::to('/detailblog_masa_aktif') }}">Read More</a>
                         </div>
                     </div>
 
@@ -172,19 +172,19 @@
                     <div class="sidebar-item recent-posts">
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog3.jpg') }}" alt="">
-                            <h4><a href="{{ URL::to('/detailblog_macam_macam') }}" target="_blank">Macam-macam website</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_macam_macam') }}">Macam-macam website</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog4.jpg') }}" alt="">
-                            <h4><a href="{{ URL::to('/detailblog_domain_hosting') }}" target="_blank">Apa itu domain & web hosting?</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_domain_hosting') }}">Apa itu domain & web hosting?</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="{{ asset('user/assets/img/blog/blog5.jpg') }}" alt="">
-                            <h4><a href="{{ URL::to('/detailblog_masa_aktif') }}" target="_blank">Masa aktif website</a></h4>
+                            <h4><a href="{{ URL::to('/detailblog_masa_aktif') }}">Masa aktif website</a></h4>
                             <time datetime="2023-07-19">19 Juli 2023</time>
                         </div>
                     </div>
